@@ -1,0 +1,27 @@
+{
+  "name": "first-repo",
+  "version": "1.0.0",
+  "description": "created for fun",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && ts-node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manikantaaddagatla/first-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manikantaaddagatla/first-repo/issues"
+  },
+  "homepage": "https://github.com/manikantaaddagatla/first-repo#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "ts-node": "^10.7.0"
+  }
+}
